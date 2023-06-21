@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-skipped">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,  1 skipped,  23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="deveDevolverNaSegundaAoAlugarNoSabado">deveDevolverNaSegundaAoAlugarNoSabado</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="deveAlugarFilme">deveAlugarFilme</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" class="method navigator-link" hash-for-method="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]">deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" class="method navigator-link" hash-for-method="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]">deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" class="method navigator-link" hash-for-method="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]">deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" class="method navigator-link" hash-for-method="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]">deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" class="method navigator-link" hash-for-method="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]">deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculoValorLocacaoTest" class="method navigator-link" hash-for-method="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]">deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculadoraTest" class="method navigator-link" hash-for-method="deveDividir">deveDividir</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculadoraTest" class="method navigator-link" hash-for-method="deveDividirDoisValores">deveDividirDoisValores</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="deveEnviarEmailParaLocacoesAtrasadas">deveEnviarEmailParaLocacoesAtrasadas</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculadoraTest" class="method navigator-link" hash-for-method="deveLancarExcecaoAoDividirPorZero">deveLancarExcecaoAoDividirPorZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="deveProrrogarUmaLocacao">deveProrrogarUmaLocacao</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculadoraTest" class="method navigator-link" hash-for-method="deveSomarDoisValores">deveSomarDoisValores</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculadoraTest" class="method navigator-link" hash-for-method="deveSubtrairDoisValores">deveSubtrairDoisValores</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="deveTratarErronoSPC">deveTratarErronoSPC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculadoraMockTest" class="method navigator-link" hash-for-method="devoMostrarDiferencaEntreMockSpy">devoMostrarDiferencaEntreMockSpy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="OrdemTest" class="method navigator-link" hash-for-method="inicia">inicia</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="naoDeveAlugarFilmeParaNegativadoSPC">naoDeveAlugarFilmeParaNegativadoSPC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="naoDeveAlugarFilmeSemEstoque">naoDeveAlugarFilmeSemEstoque</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="naoDeveAlugarFilmeSemFilme">naoDeveAlugarFilmeSemFilme</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.LocacaoServiceTest" class="method navigator-link" hash-for-method="naoDeveAlugarFilmeSemUsuario">naoDeveAlugarFilmeSemUsuario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="br.ce.wcaquino.servicos.CalculadoraMockTest" class="method navigator-link" hash-for-method="teste">teste</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="OrdemTest" class="method navigator-link" hash-for-method="verifica">verifica</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">br.ce.wcaquino.servicos.LocacaoServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveDevolverNaSegundaAoAlugarNoSabado">
+                  </a> <!-- deveDevolverNaSegundaAoAlugarNoSabado -->
+                  <span class="method-name">deveDevolverNaSegundaAoAlugarNoSabado</span>
+                  <div class="stack-trace">org.junit.internal.AssumptionViolatedException: got: &lt;false&gt;, expected: is &lt;true&gt;
+	at org.junit.Assume.assumeThat(Assume.java:95)
+	at org.junit.Assume.assumeTrue(Assume.java:41)
+	at br.ce.wcaquino.servicos.LocacaoServiceTest.deveDevolverNaSegundaAoAlugarNoSabado(LocacaoServiceTest.java:125)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.Verifier$1.evaluate(Verifier.java:35)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:168)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">br.ce.wcaquino.servicos.CalculoValorLocacaoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]">
+                  </a> <!-- deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto] -->
+                  <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]">
+                  </a> <!-- deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%] -->
+                  <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]">
+                  </a> <!-- deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%] -->
+                  <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]">
+                  </a> <!-- deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%] -->
+                  <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]">
+                  </a> <!-- deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%] -->
+                  <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]">
+                  </a> <!-- deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto] -->
+                  <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">br.ce.wcaquino.servicos.CalculadoraTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveDividir">
+                  </a> <!-- deveDividir -->
+                  <span class="method-name">deveDividir</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveDividirDoisValores">
+                  </a> <!-- deveDividirDoisValores -->
+                  <span class="method-name">deveDividirDoisValores</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveLancarExcecaoAoDividirPorZero">
+                  </a> <!-- deveLancarExcecaoAoDividirPorZero -->
+                  <span class="method-name">deveLancarExcecaoAoDividirPorZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveSomarDoisValores">
+                  </a> <!-- deveSomarDoisValores -->
+                  <span class="method-name">deveSomarDoisValores</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveSubtrairDoisValores">
+                  </a> <!-- deveSubtrairDoisValores -->
+                  <span class="method-name">deveSubtrairDoisValores</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">br.ce.wcaquino.servicos.LocacaoServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveAlugarFilme">
+                  </a> <!-- deveAlugarFilme -->
+                  <span class="method-name">deveAlugarFilme</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveEnviarEmailParaLocacoesAtrasadas">
+                  </a> <!-- deveEnviarEmailParaLocacoesAtrasadas -->
+                  <span class="method-name">deveEnviarEmailParaLocacoesAtrasadas</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveProrrogarUmaLocacao">
+                  </a> <!-- deveProrrogarUmaLocacao -->
+                  <span class="method-name">deveProrrogarUmaLocacao</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deveTratarErronoSPC">
+                  </a> <!-- deveTratarErronoSPC -->
+                  <span class="method-name">deveTratarErronoSPC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="naoDeveAlugarFilmeParaNegativadoSPC">
+                  </a> <!-- naoDeveAlugarFilmeParaNegativadoSPC -->
+                  <span class="method-name">naoDeveAlugarFilmeParaNegativadoSPC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="naoDeveAlugarFilmeSemEstoque">
+                  </a> <!-- naoDeveAlugarFilmeSemEstoque -->
+                  <span class="method-name">naoDeveAlugarFilmeSemEstoque</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="naoDeveAlugarFilmeSemFilme">
+                  </a> <!-- naoDeveAlugarFilmeSemFilme -->
+                  <span class="method-name">naoDeveAlugarFilmeSemFilme</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="naoDeveAlugarFilmeSemUsuario">
+                  </a> <!-- naoDeveAlugarFilmeSemUsuario -->
+                  <span class="method-name">naoDeveAlugarFilmeSemUsuario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">OrdemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inicia">
+                  </a> <!-- inicia -->
+                  <span class="method-name">inicia</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifica">
+                  </a> <!-- verifica -->
+                  <span class="method-name">verifica</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">br.ce.wcaquino.servicos.CalculadoraMockTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="devoMostrarDiferencaEntreMockSpy">
+                  </a> <!-- devoMostrarDiferencaEntreMockSpy -->
+                  <span class="method-name">devoMostrarDiferencaEntreMockSpy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="teste">
+                  </a> <!-- teste -->
+                  <span class="method-name">teste</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; junit=&quot;true&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test junit=&quot;true&quot; thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;br.ce.wcaquino.servicos.CalculadoraMockTest&quot;/&gt;
+      &lt;class name=&quot;br.ce.wcaquino.servicos.CalculadoraTest&quot;/&gt;
+      &lt;class name=&quot;br.ce.wcaquino.servicos.CalculoValorLocacaoTest&quot;/&gt;
+      &lt;class name=&quot;br.ce.wcaquino.servicos.LocacaoServiceTest&quot;/&gt;
+      &lt;class name=&quot;OrdemTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'devoMostrarDiferencaEntreMockSpy')
+data.setCell(0, 2, 'br.ce.wcaquino.servicos.CalculadoraMockTest')
+data.setCell(0, 3, 2353);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'teste')
+data.setCell(1, 2, 'br.ce.wcaquino.servicos.CalculadoraMockTest')
+data.setCell(1, 3, 2307);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]')
+data.setCell(2, 2, 'br.ce.wcaquino.servicos.CalculoValorLocacaoTest')
+data.setCell(2, 3, 163);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]')
+data.setCell(3, 2, 'br.ce.wcaquino.servicos.CalculoValorLocacaoTest')
+data.setCell(3, 3, 159);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]')
+data.setCell(4, 2, 'br.ce.wcaquino.servicos.CalculoValorLocacaoTest')
+data.setCell(4, 3, 157);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]')
+data.setCell(5, 2, 'br.ce.wcaquino.servicos.CalculoValorLocacaoTest')
+data.setCell(5, 3, 153);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]')
+data.setCell(6, 2, 'br.ce.wcaquino.servicos.CalculoValorLocacaoTest')
+data.setCell(6, 3, 148);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]')
+data.setCell(7, 2, 'br.ce.wcaquino.servicos.CalculoValorLocacaoTest')
+data.setCell(7, 3, 145);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'deveAlugarFilme')
+data.setCell(8, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(8, 3, 116);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'naoDeveAlugarFilmeSemUsuario')
+data.setCell(9, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(9, 3, 112);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deveDevolverNaSegundaAoAlugarNoSabado')
+data.setCell(10, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(10, 3, 106);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'naoDeveAlugarFilmeParaNegativadoSPC')
+data.setCell(11, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(11, 3, 99);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'deveEnviarEmailParaLocacoesAtrasadas')
+data.setCell(12, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(12, 3, 96);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'deveTratarErronoSPC')
+data.setCell(13, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(13, 3, 80);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'deveProrrogarUmaLocacao')
+data.setCell(14, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(14, 3, 71);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'naoDeveAlugarFilmeSemEstoque')
+data.setCell(15, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(15, 3, 28);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'naoDeveAlugarFilmeSemFilme')
+data.setCell(16, 2, 'br.ce.wcaquino.servicos.LocacaoServiceTest')
+data.setCell(16, 3, 22);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'deveSubtrairDoisValores')
+data.setCell(17, 2, 'br.ce.wcaquino.servicos.CalculadoraTest')
+data.setCell(17, 3, 12);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'deveDividirDoisValores')
+data.setCell(18, 2, 'br.ce.wcaquino.servicos.CalculadoraTest')
+data.setCell(18, 3, 12);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'deveLancarExcecaoAoDividirPorZero')
+data.setCell(19, 2, 'br.ce.wcaquino.servicos.CalculadoraTest')
+data.setCell(19, 3, 8);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'deveDividir')
+data.setCell(20, 2, 'br.ce.wcaquino.servicos.CalculadoraTest')
+data.setCell(20, 3, 5);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'deveSomarDoisValores')
+data.setCell(21, 2, 'br.ce.wcaquino.servicos.CalculadoraTest')
+data.setCell(21, 3, 5);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifica')
+data.setCell(22, 2, 'OrdemTest')
+data.setCell(22, 3, 2);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'inicia')
+data.setCell(23, 2, 'OrdemTest')
+data.setCell(23, 3, 1);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">br.ce.wcaquino.servicos.CalculadoraMockTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">teste</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">devoMostrarDiferencaEntreMockSpy</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">br.ce.wcaquino.servicos.CalculadoraTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deveSomarDoisValores</span>
+                <span class="method-start">2366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveDividir</span>
+                <span class="method-start">2367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveLancarExcecaoAoDividirPorZero</span>
+                <span class="method-start">2367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveSubtrairDoisValores</span>
+                <span class="method-start">2370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveDividirDoisValores</span>
+                <span class="method-start">2370 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">br.ce.wcaquino.servicos.CalculoValorLocacaoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem Desconto]</span>
+                <span class="method-start">2469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]</span>
+                <span class="method-start">2472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]</span>
+                <span class="method-start">2474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]</span>
+                <span class="method-start">2475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]</span>
+                <span class="method-start">2480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem Desconto]</span>
+                <span class="method-start">2484 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">br.ce.wcaquino.servicos.LocacaoServiceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">naoDeveAlugarFilmeSemEstoque</span>
+                <span class="method-start">2655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">naoDeveAlugarFilmeSemFilme</span>
+                <span class="method-start">2655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveProrrogarUmaLocacao</span>
+                <span class="method-start">2656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveEnviarEmailParaLocacoesAtrasadas</span>
+                <span class="method-start">2656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveTratarErronoSPC</span>
+                <span class="method-start">2656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">naoDeveAlugarFilmeSemUsuario</span>
+                <span class="method-start">2657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveDevolverNaSegundaAoAlugarNoSabado</span>
+                <span class="method-start">2657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">naoDeveAlugarFilmeParaNegativadoSPC</span>
+                <span class="method-start">2657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deveAlugarFilme</span>
+                <span class="method-start">2658 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OrdemTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">inicia</span>
+                <span class="method-start">2777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifica</span>
+                <span class="method-start">2777 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
