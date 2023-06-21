@@ -1,4 +1,4 @@
-# Teste java locadora  ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/aguirre39/JavaTest-locadora/Java CI)
+# Teste java locadora  
 
 
 Verificação e validação de sistemas
