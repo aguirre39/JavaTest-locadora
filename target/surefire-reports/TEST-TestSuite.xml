@@ -156,6 +156,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
+<<<<<<< HEAD
   <testcase name="devoMostrarDiferencaEntreMockSpy on devoMostrarDiferencaEntreMockSpy(br.ce.wcaquino.servicos.CalculadoraMockTest)" classname="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.013">
     <system-out><![CDATA[Estou executando o método somar
 Mock:5
@@ -166,6 +167,18 @@ Spy
   </testcase>
   <testcase name="deveSomarDoisValores on deveSomarDoisValores(br.ce.wcaquino.servicos.CalculadoraTest)" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.002">
     <system-out><![CDATA[Estou executando o método somar
+=======
+  <testcase name="devoMostrarDiferencaEntreMockSpy on devoMostrarDiferencaEntreMockSpy(br.ce.wcaquino.servicos.CalculadoraMockTest)" classname="br.ce.wcaquino.servicos.CalculadoraMockTest" time="0.01">
+    <system-out><![CDATA[Estou executando o método somar
+Mock:5
+Spy:5
+Mock
+Spy
+]]></system-out>
+  </testcase>
+  <testcase name="deveSomarDoisValores on deveSomarDoisValores(br.ce.wcaquino.servicos.CalculadoraTest)" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[Estou executando o método somar
+>>>>>>> 67defbd218277a4c979640f1afa280b51ff302e5
 ]]></system-out>
   </testcase>
   <testcase name="deveDividir on deveDividir(br.ce.wcaquino.servicos.CalculadoraTest)" classname="br.ce.wcaquino.servicos.CalculadoraTest" time="0"/>
